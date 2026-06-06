@@ -1,0 +1,80 @@
+.nav-link {
+    color: gray;
+}
+
+.bgvideo {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.effect{
+      width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.video-text {
+    color: aquamarine;
+    z-index: 3;
+}
+
+.navbar-brand>img {
+    width: 40px;
+}
+
+.navbar-nav.nav-link.active {
+    color: blue;
+}
+
+body {
+    background: linear-gradient(0deg, #228 25%, #448 40%, #677 50%, #522 80%);
+}
+
+.sidebar {
+    color: aqua;
+    background: linear-gradient(90deg, #522 39%, #448 72%);
+}
+
+p {
+    color: cyan;
+}
+
+.center {
+    color: aqua;
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicator {
+        display: none;
+    }
+}
+
+footer {
+    background: linear-gradient(90deg, #522 39%, #448 72%);
+    ;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #522 39%, #448 72%);
+    margin-inline: auto;
+    
+}
